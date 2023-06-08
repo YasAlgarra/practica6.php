@@ -1,0 +1,71 @@
+/* Estilos para toda la web */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: whitesmoke;
+}
+
+.container {
+    margin:auto;
+    margin-top: 15px;
+    max-width: 90%;
+}
+
+/* Estilos para el formulario */
+
+.formulario {
+    border: 1px solid rgb(0, 43, 7);
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 400px;
+    margin: auto;
+    background: rgb(0, 0, 0);
+
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 30px;
+    text-align:center;
+    margin: 0px;
+    margin-bottom: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+p{
+    color:rgb(255, 255, 255);
+}
+
+.form_input{
+    margin-bottom: 20px;
+}
+
+.form_input label {
+    display: block;
+    margin-bottom: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.form_input input {
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2px;
+    height: 35px;
+}
+
+.submit_button input {
+    
+    background: rgb(52, 87, 0);
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 13px 120px;
+}
+
+.oculto {
+    display: none !important;
+  }
+
